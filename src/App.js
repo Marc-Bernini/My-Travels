@@ -1,24 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
+import Travel from './Travel';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="travel">
+      <Travel
+        destination="Bali"
+
+        country="Indonesia"
+
+        photo="https://img-4.linternaute.com/uzneGwQt_ySLMWQ4EK6yCMRtKJs=/620x465/smart/629b900540754aaa9ab1fc9cc764588e/ccmcms-linternaute/10500670.jpg"
+
+        distance="Loin"
+      />
+
+      <Travel
+        destination="Les Caraïbes"
+
+        country="Cuba"
+
+        photo="https://www.airtransat.com/getmedia/95c15c8b-d29d-48a9-9b95-d32246661243/cuba-cayo-coco-plage-beach-2050x1200.aspx?width=2050&height=1200&ext=.jpg"
+
+        distance="Moins loin"
+      />
     </div>
   );
 }
