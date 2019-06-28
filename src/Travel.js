@@ -6,7 +6,7 @@ import React from 'react'
 
            <h2>{country}</h2>
 
-            <img src={photo} alt="photo du pays en question"/>
+            <img src={photo} alt="pays en question"/>
 
             <p>{distance}</p>
        </div>
